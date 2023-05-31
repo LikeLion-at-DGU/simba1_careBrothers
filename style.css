@@ -1,0 +1,51 @@
+body {
+  background: #fcfaf7;
+  margin: 0;
+  justify-content: center;
+}
+
+
+.container {
+  width: 390px;
+  height: 100vh;
+}
+
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffdaaf;
+  padding: 8px 12px;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  font-size: 10px;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  font-family: "Hancom MalangMalang";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #814e01;
+}
+
+.navbar__menu li {
+  display: flex;
+  padding: 8px 30px;
+  align-items: center;
+}
+
+.navbar__menu i::before {
+  font-size: 20px;
+}
