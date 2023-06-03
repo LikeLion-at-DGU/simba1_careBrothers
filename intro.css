@@ -103,10 +103,13 @@ p {
     margin-top: 54px;
 
     text-decoration: none;
-
+    /* 버튼 밑에 그림자 */
+    /* box-shadow: 0px 5px 0px 0px #A66615; */
 }
 
-
+.move-mainpage-button:hover {
+    background: #FF8E00;
+}
 
 /*team 소개*/
 .team {
