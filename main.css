@@ -4,13 +4,8 @@ body {
 }
 
 .root {
-  display: flex;
-  width: 390px;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
-  position: relative;
-  padding-bottom: 150px;
 }
 
 

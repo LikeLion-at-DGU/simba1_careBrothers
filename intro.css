@@ -4,6 +4,11 @@ p {
     text-align: center;
 }
 
+.root {
+    align-items: center;
+    justify-content: center;
+}
+
 .intro {
     display: flex;
     flex-direction: column;
