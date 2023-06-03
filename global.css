@@ -52,6 +52,17 @@ body {
     margin: 0;
 }
 
+.root {
+    display: flex;
+    width: 390px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 150px;
+    flex-direction: column;
+}
+
 /* navbar */
 .navbar {
     display: flex;
