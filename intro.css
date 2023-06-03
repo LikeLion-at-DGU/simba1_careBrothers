@@ -97,3 +97,30 @@ p {
 
     margin-top: 54px;
 }
+
+/*team 소개*/
+.team {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.team__name {
+    display: flex;
+    justify-content: center;
+    font-family: 'HancomMalangMalang';
+    font-weight: 400;
+    font-size: 12px;
+    color: #FF7700;
+    
+    margin-top: 57px;
+}
+
+.team__member {
+    margin-top: 18px;
+}
+
+.team__member img {
+    width: 283px;
+    height: 196px;
+}
