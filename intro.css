@@ -101,7 +101,12 @@ p {
     color: #FCFAF7;
 
     margin-top: 54px;
+
+    text-decoration: none;
+
 }
+
+
 
 /*team 소개*/
 .team {
