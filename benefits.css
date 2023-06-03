@@ -39,3 +39,47 @@
     border-bottom: 1px solid #EAEAEA;
     margin: 8.5px 40px 0px 40px;
 }
+
+/* 카테고리 */
+.menu {
+    margin-left: 40px;
+    margin-right: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu li a {
+    display: flex;
+    font-family: 'HancomMalangMalang';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #814E01;
+    position: relative;
+    margin-top: 22.5px;
+}
+
+.menu li a::before {
+    content: "";
+    height: 1px;
+    width: 0px;
+    background-color: #814E01;
+    border-radius: 10px;
+    transition: 0.3s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+.menu li a:hover::before {
+    width: 100%;
+    background-color: #814E01;
+}
+
+/* 마우스 올렸을 때, 폰트 bold로 변화 */
+.menu li a:hover {
+    font-weight: bold;
+}
