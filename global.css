@@ -95,3 +95,19 @@ body {
 .navbar__menu i::before {
     font-size: 20px;
 }
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 390px;
+    height: 100px;
+    bottom: 0;
+    font-size: 6px;
+    font-family: 'NotoSansKR';
+    background: rgba(255, 218, 175, 0.5);
+    color: #404040;
+}
