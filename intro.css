@@ -79,3 +79,21 @@ p {
     font-size: 16px;
     line-height: 20px;
 }
+
+/*메인페이지로 이동 버튼*/
+.move-mainpage-button {
+    display: flex;
+    width: 200px;
+    height: 57px;
+    background: #FFA337;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'HancomMalangMalang';
+    font-weight: 700;
+    font-size: 16px;
+    color: #FCFAF7;
+
+    margin-top: 54px;
+}
