@@ -90,3 +90,13 @@ body {
 .login__no__sign {
     color: #FFA337;
 }
+
+.login__pwd {
+    position: relative;
+}
+
+.login__pwd i{
+    position: absolute;
+    right: 5%;
+    top: 30px;
+}
