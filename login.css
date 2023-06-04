@@ -9,6 +9,7 @@ body {
     align-items: center;
 }
 
+/* 로그인 박스 */
 .login {
     display: flex;
     align-items: center;
@@ -20,6 +21,7 @@ body {
     border-radius: 50px;
 }
 
+/* 로그인 */
 .login__title {
     display: flex;
     width: 41px;
@@ -32,6 +34,7 @@ body {
     color: #FF8F0B;
 }
 
+/* 로고 */
 .login__logo {
     margin-top: 29px;
 }
@@ -41,6 +44,7 @@ body {
     height: 92px;
 }
 
+/* 로그인 input */
 .login__wrapper {
     margin-top: 32px;
     font-family: 'NotoSansKR';
@@ -61,6 +65,7 @@ body {
     margin-bottom: 13px;
 }
 
+/* 로그인 버튼 */
 .login__button input{
     margin-top: 20px;
     border: none;
@@ -76,6 +81,7 @@ body {
     color: #FFFFFF;
 }
 
+/* 계정이 없는 경우 */
 .login__no {
     display: flex;
     justify-content: space-evenly;
@@ -87,10 +93,12 @@ body {
     color: #C6C4C4;
 }
 
+/* 가입하기 버튼 */
 .login__no__sign {
     color: #FFA337;
 }
 
+/* 비밀번호 보이게/안보이게 하기 */
 .login__pwd {
     position: relative;
 }
